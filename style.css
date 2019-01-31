@@ -1,0 +1,35 @@
+body {
+	margin: 0px;
+	background: url("/img/Background.jpg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 100%; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  font-family: 'Oswald', sans-serif;
+  font-size:24px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
