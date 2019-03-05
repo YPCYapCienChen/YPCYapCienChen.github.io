@@ -33,7 +33,7 @@ body {
 }
 
 .tagline h1 {
-    font-size: 8vw;
+    font-size: 120px;
     line-height: 1.4;
     text-shadow: 2px 2px 8px #000000;
     font-family: 'Open Sans', sans-serif;
@@ -49,7 +49,7 @@ body {
 }
 
 .tagline h3 {
-    font-size: 3.5vw;
+    font-size: 60px;
     line-height: 1.4;
     text-shadow: 2px 2px 8px #000000;
     font-family: 'Open Sans', sans-serif;
@@ -131,7 +131,7 @@ body {
 .menu li {
     float: left;
     display: block;
-    padding: 12px 30px;
+    padding: 8px 20px;
     font-size: 25px;
     vertical-align: bottom;
     position: relative;
@@ -288,6 +288,28 @@ body {
     background-repeat: no-repeat;
 }
 
+.bg-coll {
+    background-image: url('../img/collaborate.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-about3 h2{
+    font-size: 100px;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.bg-about3 p{
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
 .bg-glasses {
     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/glasses.jpg');
     background-size: cover;
@@ -329,11 +351,58 @@ body {
     padding: 2% 10% 5% 10%; 
     color: black;
     line-height: 1.2;
-    font-size: 1.8vw;
+    font-size: 18px;
     text-align: justify;
 }
 
 .span6 p {
     padding: 5% 10%;
-    font-size: 1.2vw;
+    font-size: 16px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  .menu li {
+      font-size: 14px;
+  }
+  .logo {
+      
+    float: none;
+  }
+  .logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tagline h1 {
+      font-size: 80px;
+  }
+}
+
+.a {
+    background-color: #70BFFA;
+}
+
+.b {
+    background-color: #007CD9;
+}
+
+.c {
+    background-color: blue;
+}
+
+.col-head {
+    padding: 5%;
+    height: 100%;
+}
+
+.col-head h1{
+    color: white;
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.col-head a{
+    color: white;
+    font-size: 24px;
 }
